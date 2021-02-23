@@ -1,0 +1,22 @@
+{
+  "name": "indicorp",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.html",
+  "scripts": {
+    "serve": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [
+    "html",
+    "scss"
+  ],
+  "author": "matkonon",
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "npm": "^7.5.4",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.7"
+  }
+}
