@@ -411,6 +411,18 @@ body {
   height: 96px;
 }
 
+.header.fixed {
+  position: fixed;
+  background: #fafafa;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+  height: 74px;
+}
+
+.header.fixed .header__inner {
+  padding: 25px 20px;
+}
+
 .header__inner {
   display: flex;
   padding: 36px 0;
@@ -1042,7 +1054,7 @@ body {
   .contact__item {
     text-align: center;
     grid-column: 1/3;
-    grid-row: 3/4;
+    grid-row: 3/5;
   }
 }
 
